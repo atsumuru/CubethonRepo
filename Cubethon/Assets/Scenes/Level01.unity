@@ -15,7 +15,7 @@ RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 10
   m_Fog: 1
-  m_FogColor: {r: 0.7843138, g: 0.7843138, b: 0.7843138, a: 1}
+  m_FogColor: {r: 0.4716981, g: 0.4716981, b: 0.4716981, a: 1}
   m_FogMode: 3
   m_FogDensity: 0.02
   m_LinearFogStart: 0
@@ -24,8 +24,8 @@ RenderSettings:
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 0
-  m_AmbientMode: 0
-  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_AmbientMode: 3
+  m_SubtractiveShadowColor: {r: 0, g: 0, b: 0, a: 1}
   m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
@@ -93,7 +93,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 20201, guid: 0000000000000000f000000000000000, type: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 39c28f6d1d291a74ab990ff37ec12ba0, type: 2}
   m_LightingSettings: {fileID: 4890085278179872738, guid: 5102bb45915e8d0448f7376a8e8b37d4, type: 2}
 --- !u!196 &4
 NavMeshSettings:
@@ -135,6 +135,10 @@ PrefabInstance:
     - target: {fileID: 6352268865068377604, guid: 73d354ed08a1e7042bfbc3e273b2acc8, type: 3}
       propertyPath: m_Name
       value: Obstacle (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6352268865068377604, guid: 73d354ed08a1e7042bfbc3e273b2acc8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8972829361333650082, guid: 73d354ed08a1e7042bfbc3e273b2acc8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -218,6 +222,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Obstacle (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6352268865068377604, guid: 73d354ed08a1e7042bfbc3e273b2acc8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8972829361333650082, guid: 73d354ed08a1e7042bfbc3e273b2acc8, type: 3}
       propertyPath: m_LocalPosition.x
       value: -9.28
@@ -274,6 +282,10 @@ PrefabInstance:
     - target: {fileID: 6352268865068377604, guid: 73d354ed08a1e7042bfbc3e273b2acc8, type: 3}
       propertyPath: m_Name
       value: Obstacle (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6352268865068377604, guid: 73d354ed08a1e7042bfbc3e273b2acc8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8972829361333650082, guid: 73d354ed08a1e7042bfbc3e273b2acc8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -358,7 +370,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.9245283, g: 0.9245283, b: 0.9245283, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -450,7 +462,6 @@ MonoBehaviour:
   m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
-  m_Version: 2
   m_TaaSettings:
     m_Quality: 3
     m_FrameInfluence: 0.1
@@ -458,6 +469,7 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
+  m_Version: 2
 --- !u!114 &330585548
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -483,6 +495,10 @@ PrefabInstance:
     - target: {fileID: 6352268865068377604, guid: 73d354ed08a1e7042bfbc3e273b2acc8, type: 3}
       propertyPath: m_Name
       value: Obstacle (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6352268865068377604, guid: 73d354ed08a1e7042bfbc3e273b2acc8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8972829361333650082, guid: 73d354ed08a1e7042bfbc3e273b2acc8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -555,14 +571,14 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 410087039}
   m_Enabled: 1
-  serializedVersion: 11
+  serializedVersion: 12
   m_Type: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 2
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
-  m_CookieSize: 10
+  m_CookieSize2D: {x: 10, y: 10}
   m_Shadows:
     m_Type: 2
     m_Resolution: -1
@@ -639,17 +655,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Version: 3
   m_UsePipelineSettings: 1
   m_AdditionalLightsShadowResolutionTier: 2
-  m_LightLayerMask: 1
-  m_RenderingLayers: 1
   m_CustomShadowLayers: 0
-  m_ShadowLayerMask: 1
-  m_ShadowRenderingLayers: 1
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 1
+  m_RenderingLayersMask:
+    serializedVersion: 0
+    m_Bits: 1
+  m_ShadowRenderingLayersMask:
+    serializedVersion: 0
+    m_Bits: 1
+  m_Version: 4
+  m_LightLayerMask: 1
+  m_ShadowLayerMask: 1
+  m_RenderingLayers: 1
+  m_ShadowRenderingLayers: 1
 --- !u!1001 &450908259
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -661,6 +683,10 @@ PrefabInstance:
     - target: {fileID: 6352268865068377604, guid: 73d354ed08a1e7042bfbc3e273b2acc8, type: 3}
       propertyPath: m_Name
       value: Obstacle (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6352268865068377604, guid: 73d354ed08a1e7042bfbc3e273b2acc8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8972829361333650082, guid: 73d354ed08a1e7042bfbc3e273b2acc8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -721,7 +747,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &510834552
 Transform:
@@ -986,6 +1012,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Obstacle (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 6352268865068377604, guid: 73d354ed08a1e7042bfbc3e273b2acc8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8972829361333650082, guid: 73d354ed08a1e7042bfbc3e273b2acc8, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.2299995
@@ -1091,6 +1121,10 @@ PrefabInstance:
     - target: {fileID: 6352268865068377604, guid: 73d354ed08a1e7042bfbc3e273b2acc8, type: 3}
       propertyPath: m_Name
       value: Obstacle (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6352268865068377604, guid: 73d354ed08a1e7042bfbc3e273b2acc8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8972829361333650082, guid: 73d354ed08a1e7042bfbc3e273b2acc8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1226,15 +1260,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: 250
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 681ce301474158f47860a6ecbebc2d57, type: 2}
+  m_sharedMaterial: {fileID: 8645455076412352858, guid: 681ce301474158f47860a6ecbebc2d57, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1251,8 +1285,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 44.69
-  m_fontSizeBase: 44.69
+  m_fontSize: 61.97
+  m_fontSizeBase: 61.97
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1262,6 +1296,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -1320,6 +1355,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Obstacle (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 6352268865068377604, guid: 73d354ed08a1e7042bfbc3e273b2acc8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8972829361333650082, guid: 73d354ed08a1e7042bfbc3e273b2acc8, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8.23
@@ -1377,6 +1416,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Obstacle (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 6352268865068377604, guid: 73d354ed08a1e7042bfbc3e273b2acc8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8972829361333650082, guid: 73d354ed08a1e7042bfbc3e273b2acc8, type: 3}
       propertyPath: m_LocalPosition.x
       value: -7.2299995
@@ -1433,6 +1476,10 @@ PrefabInstance:
     - target: {fileID: 6352268865068377604, guid: 73d354ed08a1e7042bfbc3e273b2acc8, type: 3}
       propertyPath: m_Name
       value: Obstacle (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6352268865068377604, guid: 73d354ed08a1e7042bfbc3e273b2acc8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8972829361333650082, guid: 73d354ed08a1e7042bfbc3e273b2acc8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1538,15 +1585,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: COMPLETE!
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 681ce301474158f47860a6ecbebc2d57, type: 2}
+  m_sharedMaterial: {fileID: 8645455076412352858, guid: 681ce301474158f47860a6ecbebc2d57, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4292477017
+  m_fontColor: {r: 0.34901962, g: 0, b: 0.85490197, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1574,6 +1621,7 @@ MonoBehaviour:
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -1626,6 +1674,10 @@ PrefabInstance:
     - target: {fileID: 6352268865068377604, guid: 73d354ed08a1e7042bfbc3e273b2acc8, type: 3}
       propertyPath: m_Name
       value: Obstacle (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6352268865068377604, guid: 73d354ed08a1e7042bfbc3e273b2acc8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8972829361333650082, guid: 73d354ed08a1e7042bfbc3e273b2acc8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1777,15 +1829,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: LEVEL
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 681ce301474158f47860a6ecbebc2d57, type: 2}
+  m_sharedMaterial: {fileID: 8645455076412352858, guid: 681ce301474158f47860a6ecbebc2d57, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4292477017
+  m_fontColor: {r: 0.34901962, g: 0, b: 0.85490197, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1813,6 +1865,7 @@ MonoBehaviour:
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -1865,6 +1918,10 @@ PrefabInstance:
     - target: {fileID: 6352268865068377604, guid: 73d354ed08a1e7042bfbc3e273b2acc8, type: 3}
       propertyPath: m_Name
       value: Obstacle (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6352268865068377604, guid: 73d354ed08a1e7042bfbc3e273b2acc8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8972829361333650082, guid: 73d354ed08a1e7042bfbc3e273b2acc8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2012,6 +2069,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Obstacle (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 6352268865068377604, guid: 73d354ed08a1e7042bfbc3e273b2acc8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8972829361333650082, guid: 73d354ed08a1e7042bfbc3e273b2acc8, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.2799997
@@ -2068,6 +2129,10 @@ PrefabInstance:
     - target: {fileID: 6352268865068377604, guid: 73d354ed08a1e7042bfbc3e273b2acc8, type: 3}
       propertyPath: m_Name
       value: Obstacle (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6352268865068377604, guid: 73d354ed08a1e7042bfbc3e273b2acc8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8972829361333650082, guid: 73d354ed08a1e7042bfbc3e273b2acc8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2130,6 +2195,10 @@ PrefabInstance:
     - target: {fileID: 6352268865068377604, guid: 73d354ed08a1e7042bfbc3e273b2acc8, type: 3}
       propertyPath: m_Name
       value: Obstacle (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6352268865068377604, guid: 73d354ed08a1e7042bfbc3e273b2acc8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8972829361333650082, guid: 73d354ed08a1e7042bfbc3e273b2acc8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2212,6 +2281,10 @@ PrefabInstance:
     - target: {fileID: 6352268865068377604, guid: 73d354ed08a1e7042bfbc3e273b2acc8, type: 3}
       propertyPath: m_Name
       value: Obstacle (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6352268865068377604, guid: 73d354ed08a1e7042bfbc3e273b2acc8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8972829361333650082, guid: 73d354ed08a1e7042bfbc3e273b2acc8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2332,6 +2405,8 @@ MeshRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2353,9 +2428,11 @@ MeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!33 &1814292918
 MeshFilter:
@@ -2391,6 +2468,10 @@ PrefabInstance:
     - target: {fileID: 6352268865068377604, guid: 73d354ed08a1e7042bfbc3e273b2acc8, type: 3}
       propertyPath: m_Name
       value: Obstacle (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6352268865068377604, guid: 73d354ed08a1e7042bfbc3e273b2acc8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8972829361333650082, guid: 73d354ed08a1e7042bfbc3e273b2acc8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2448,6 +2529,10 @@ PrefabInstance:
     - target: {fileID: 6352268865068377604, guid: 73d354ed08a1e7042bfbc3e273b2acc8, type: 3}
       propertyPath: m_Name
       value: Obstacle (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6352268865068377604, guid: 73d354ed08a1e7042bfbc3e273b2acc8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8972829361333650082, guid: 73d354ed08a1e7042bfbc3e273b2acc8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2511,6 +2596,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Obstacle (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6352268865068377604, guid: 73d354ed08a1e7042bfbc3e273b2acc8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8972829361333650082, guid: 73d354ed08a1e7042bfbc3e273b2acc8, type: 3}
       propertyPath: m_LocalPosition.x
       value: -11.28
@@ -2573,7 +2662,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!65 &2015959349
 BoxCollider:
@@ -2616,6 +2705,8 @@ MeshRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2637,9 +2728,11 @@ MeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!33 &2015959351
 MeshFilter:
@@ -2685,6 +2778,10 @@ PrefabInstance:
     - target: {fileID: 6352268865068377604, guid: 73d354ed08a1e7042bfbc3e273b2acc8, type: 3}
       propertyPath: m_Name
       value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 6352268865068377604, guid: 73d354ed08a1e7042bfbc3e273b2acc8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8972829361333650082, guid: 73d354ed08a1e7042bfbc3e273b2acc8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2782,6 +2879,10 @@ PrefabInstance:
     - target: {fileID: 8812019878866922264, guid: 8553b6065d9367b4f83a7c4a7374c9e4, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 8812019878866922264, guid: 8553b6065d9367b4f83a7c4a7374c9e4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
